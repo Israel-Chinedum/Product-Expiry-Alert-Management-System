@@ -1,0 +1,19 @@
+{
+  "name": "product-expiry-alert-management-system",
+  "version": "1.0.0",
+  "description": "A product expiry alert system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "alert": "nodemon Server/server.js"
+  },
+  "author": "FAVOUR ISRAEL",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7"
+  },
+  "type": "module"
+}
